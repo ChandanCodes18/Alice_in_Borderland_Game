@@ -60,13 +60,15 @@ document.getElementById("rules-toggle").onclick = function () {
 //  ------------- GAME LOGIC --------------
 
 // Central object to hold the game's state
+// Can add bots with various logics : Follower , Gambler , cautious , predictor 
+
 let GameStatus = {
   players: [
     { name: "You", score: 0, CurrInput: 0, Alive: true },
-    { name: "Follower", score: 0, CurrInput: 0, Alive: true },
-    { name: "Gambler", score: 0, CurrInput: 0, Alive: true },
-    { name: "Cautious", score: 0, CurrInput: 0, Alive: true },
-    { name: "Predictor", score: 0, CurrInput: 0, Alive: true },
+    { name: "Player 1", score: 0, CurrInput: 0, Alive: true },
+    { name: "Player 2", score: 0, CurrInput: 0, Alive: true },
+    { name: "Chishiya", score: 0, CurrInput: 0, Alive: true },
+    { name: "Kuzuryu", score: 0, CurrInput: 0, Alive: true },
   ],
   result: 0,
   ActiveRules: [
