@@ -157,6 +157,7 @@ body {
   height: auto;
   /* This filter combo makes a black icon white */
   filter: invert(1) brightness(2);
+  /* filter: invert(1) brightness(2); */
   
 }
 
