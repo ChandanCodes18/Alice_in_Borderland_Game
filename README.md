@@ -33,10 +33,10 @@ A web-based implementation of the intense psychological "King of Diamonds" game 
 ## Screenshots
 
 **Home Page**
-![Home Page]()
+![Home Page](images/UI1)
 
 **Game Interface**
-![Game Interface](https://via.placeholder.com/600x400.png?text=Game+Interface+Screenshot)
+![Game Interface](images/UI2)
 
 ## Gameplay Mechanics
 
