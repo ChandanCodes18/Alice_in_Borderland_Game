@@ -103,20 +103,6 @@ To run this project on your local machine, follow these simple steps:
 3.  Ensure you have a folder named `images` containing the necessary assets (`diamond.png`, `favicon.png`, `bg.png`, `profile.png`, etc.) as referenced in the HTML and CSS files.
 4.  Open the `Home_page.html` file in your preferred web browser. The game will start from there.
 
-## File Structure
-.
-├── Home_page.html
-├── Game_page.html
-├── design.css
-├── gameDesign.css
-├── function.js
-└── images/
-    ├── bg.png
-    ├── diamond card.png
-    ├── diamond.png
-    ├── favicon.png
-    └── profile.png
-    
 ## Future Improvements
 
 Based on the existing codebase and comments, here are some potential areas for future development:
