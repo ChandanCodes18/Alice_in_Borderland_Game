@@ -33,10 +33,10 @@ A web-based implementation of the intense psychological "King of Diamonds" game 
 ## Screenshots
 
 **Home Page**
-![Home Page](images/UI1)
+![Home Page](images/UI1.png)
 
 **Game Interface**
-![Game Interface](images/UI2)
+![Game Interface](images/UI2.png)
 
 ## Gameplay Mechanics
 
@@ -47,7 +47,7 @@ The goal is to be the last player remaining. You must avoid being eliminated by 
 ### Round Flow
 
 The game is played in rounds, with each round following a simple but strategic sequence:
-1.  **Input Selection**: You and the four AI opponents secretly choose a number between 0 and 100.
+1.  **Input Selection**: You and the four bot opponents secretly choose a number between 0 and 100.
 2.  **Calculation**: The game calculates the average of all five numbers submitted by the active players.
 3.  **Winning Number**: The "Winning Number" for the round is determined by multiplying the average by 0.8.
     - `Winning Number = (Sum of all inputs / Number of active players) * 0.8`
@@ -103,18 +103,6 @@ To run this project on your local machine, follow these simple steps:
 3.  Ensure you have a folder named `images` containing the necessary assets (`diamond.png`, `favicon.png`, `bg.png`, `profile.png`, etc.) as referenced in the HTML and CSS files.
 4.  Open the `Home_page.html` file in your preferred web browser. The game will start from there.
 
-## File Structure
-├── Home_page.html
-├── Game_page.html
-├── design.css
-├── gameDesign.css
-├── function.js
-└── images/
-├── bg.png
-├── diamond card.png
-├── diamond.png
-├── favicon.png
-└── profile.png
 ## Future Improvements
 
 Based on the existing codebase and comments, here are some potential areas for future development:
@@ -123,5 +111,6 @@ Based on the existing codebase and comments, here are some potential areas for f
   - **Gambler**: Prefers higher-risk, extreme numbers.
   - **Follower**: Tends to choose numbers close to the previous round's average.
   - **Cautious**: Prefers lower, safer numbers.
-- **Additional Game Rules**: Implement the optional rules from the `RulesPool` array in `function.js` to add more complexity and variation to rounds.
+  - **Predictor**: Takes all the players input and the probable input into consideration.
+- **Additional Game Rules**: Implement new rules from the `RulesPool` array in `function.js` every time a player is eliminated ,to add more complexity and variation to rounds.
 - **Multiplayer Mode**: Refactor the game logic to support real-time gameplay with other human players over a network.
